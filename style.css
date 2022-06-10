@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Rubik:wght@400;600&display=swap');* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 1px;
+    
+}
+
+nav li {
+    list-style: none;
+    margin-left: 35px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.login {
+    background-color: hsl(0, 94%, 66%);
+    border: none;
+    padding: 2px 20px;
+    color: white;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+
+.login:hover {
+    background-color: white;
+    color: hsl(0, 94%, 66%) ;
+    border: 2px solid hsl(0, 94%, 66%);
+}
+
+.hide {
+    display: none !important;
+}
+
+p {
+    font-size: 13px;
+    /* font-weight: 600; */
+}
+
+h1 {
+    font-weight:900;
+    font-size: 35px;
+}
+
+.blue-btn {
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 18px;
+    color:white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;}
+
+.gray-btn {
+    background-color: rgb(230, 228, 228);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.simple-bookmark-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}   
+
+
+h4 {
+   font-weight: 600; 
+}
+
+.hero-img  {
+    width: 90%;
+    box-shadow: 50px 50px 0px -23px hsl(231, 69%, 60%);
+    /* box-shadow: 50px 50px 0px 9px hsl(231, 69%, 60%); */
+}
+
+.features-div {
+    margin: 150px 0px;
+}
+
+.center {
+    max-width:700px;
+    margin-bottom: 80px;
+}
+
+.features {
+    justify-content:space-around;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.features a {
+    text-decoration: none;
+    color: black;
+}
+
+.clicked {
+    border-bottom: 5px solid hsl(0, 94%, 66%);
+}
+
+.features-item{
+    padding-bottom: 20px;
+}
+
+.features-items {
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+}
+
+.feature-tab1-img {
+    box-shadow: -50px 50px 0px -13px  hsl(231, 69%, 60%);
+    /* width: 40%; */
+    /* margin-right: 130px; */
+}
+
+.feature-tab1-info {
+   /* width: 0%; */
+   justify-items: end;
+   text-align: left;
+   margin-left:150px;
+}
+
+.browser-card-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* position: relative; */
+    /* justify-content: space-between; */
+    margin-bottom: 100px;
+}
+
+.browser {
+    /* position: absolute; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px 0px;
+    border-radius: 10px;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+/* .browser-container {
+    width: 1000px;
+} */
+
+.browser-btn {
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 10px 40px;
+}
+
+.browser-btn:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+}
+
+.frequently-asked-questions-div {
+    margin: 150px auto;
+    max-width: 400px;
+    /* text-align: center; */
+}
+
+h6 {
+    font-weight: 600;
+}
+
+.arrow-down {
+    color: hsl(231, 69%, 60%);
+}
+
+.stay-upto-date {
+    background-color: hsl(231, 69%, 60%);
+    padding: 50px 0px;
+    color: white;
+}
+
+.stay-upto-date p {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.email {
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+}
+
+.email-div {
+    background-color: hsl(0, 94%, 66%);
+    padding: 2px 2px;
+    margin-right: 10px;
+}
+
+.email + p {
+    color: white;
+}
+
+.email-contact-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-btn {
+    padding: 5px;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: hsl(0, 94%, 66%) ;
+    border: 2px solid hsl(0, 94%, 66%);
+}
+
+.footer {
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#footer-bookmark-logo{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 10px;
+    height: 25px;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+.footer-bookmark{
+    color: white;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bookmark-logo-div {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.footer-items ul {
+    display: flex;
+}
+
+.footer-items li {
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 600px;
+}
+
+.footer-items li:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.footer-icon {
+    margin-left: 20px;
+}
+
+.footer-icon:hover {
+    color: hsl(0, 94%, 66%)
+}.features {
+    justify-content:space-around;
+    display: flex;
+    border-bottom: 1px solid gray;
+}.features {
+    justify-content:space-around;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.popup-wrapper {
+    background-color: hsla(229, 31%, 21%, 0.9);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+}
+
+.navbarmenu-body {
+    padding: 40px 30px;
+    color: white;
+}
+
+#navmenu-bookmark-logo {
+    background-color: white;
+    color:hsl(229, 31%, 21%);
+    padding: 5px;
+    border-radius: 50%;
+    height: 20px;
+    margin-top: -8px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.menu-header {
+    margin-bottom: 20px;
+}
+
+
+.nav-items-div {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.navbar-login-botton {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.navbar-icons-div {
+    text-align: center;
+}
+
+
+
+@media (max-width: 400px) {
+    .navList{
+        display: none;
+    }
+
+    #block{
+        display: block !important;
+    }
+
+    .simple-bookmark-div {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .simple-bookmark-text {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .hero-img {
+        margin-bottom: 50px;
+    }
+
+    .features {
+        flex-direction: column;
+        border: none;
+    }
+
+    .features-item {
+        border-bottom: 1px solid gray;
+        padding: 12px;
+    }
+
+    .feature-1 {
+        border-top: 1px solid gray;
+    }
+
+    .features-items {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature-tab1-img {
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .feature-tab1-info{
+        margin: auto;
+        text-align: center;
+    }
+
+    .browser-card-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .browser {
+        /* position: absolute; */
+        width: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 35px 0px;
+        margin: 0px 25px;
+        border-radius: 10px;
+    }
+
+    .email-contact-div {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .email-div {
+        margin-bottom: 20px;
+    }
+
+    .contact-btn{ 
+        width: 100%;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bookmark-logo-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-items ul {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .footer-items li {
+        list-style-type: none;
+        margin: auto;
+        padding: 5px 0px;
+        font-size: 12px;
+        font-weight: 700px;
+    }
+
+    #footer-bookmark-logo{
+        background-color: hsl(231, 69%, 60%);
+        color: white;
+        border-radius: 50%;
+        padding: 10px auto;
+        font-size: 10px;
+        height: 20px;
+        margin-top: 2px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
