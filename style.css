@@ -42,7 +42,7 @@ p {
 }
 
 nav {
-    margin: 2rem 0;
+    margin-top: 1.2rem;
 }
 
 nav a {
@@ -433,12 +433,14 @@ nav .nav-btn:hover {
     }
 
     .hero_blue_btn {
-        padding: .5em 1.5em;
+        padding: .5em;
         margin-right: .5rem;
+        font-size: small;
     }
     
     .hero_gray_btn {
-        padding: .5em 1.5em;
+        padding: .5em;
+        font-size: small;
     }
 
     .feature__tab__img {
@@ -476,5 +478,16 @@ nav .nav-btn:hover {
         margin-top: .5rem;
         font-size: .7rem;
         font-weight: 500;
+    }
+}
+
+@media (max-width: 315px) {
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_blue_btn{
+        margin-bottom: 15px;
     }
 }
