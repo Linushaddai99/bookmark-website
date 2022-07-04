@@ -42,7 +42,7 @@ p {
 }
 
 nav {
-    margin-top: 1.2rem;
+    margin: 2rem 0;
 }
 
 nav a {
@@ -80,9 +80,23 @@ nav .nav-btn:hover {
 }
 
 .hero__text {
-    /* width: 40%; */
+    width: 40%;
     align-self: center
 }
+
+/* .blue {
+	position: absolute;
+    left: 850px;
+    z-index: 9;
+}
+
+.hero1 {
+	position: absolute;
+    z-index: 12;
+    left: 650px;
+    top: 100px;
+    width: min(40%, 100%);
+} */
 
 .hero p{
    margin: 2.5rem 0;
@@ -422,6 +436,7 @@ nav .nav-btn:hover {
 
     .hero__text {
         text-align: center;
+        width: 100%;
     }
 
     .hero__img {
